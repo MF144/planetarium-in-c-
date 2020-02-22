@@ -17,7 +17,7 @@ int main()
 	string Ans8 = "";
 	string Ans9 = "";
 	string Ans10 = "";
-		cout << "1----------------Mercury" << endl;
+		cout << "1----------------Mercury" << endl;  // List of planets (and the quiz option)
 		cout << "2----------------Venus" << endl;
 		cout << "3----------------Earth" << endl;
 		cout << "4----------------Mars" << endl;
@@ -27,7 +27,7 @@ int main()
 		cout << "8----------------Neptune" << endl;
 		cout << "9----------------Pop Quiz" << endl;
 		cout << "Enter an option [1-9]: ";	cin >> n;
-		switch (n)
+		switch (n) // Random planet trivia
 		{
 		case 1:
 			cout << "Mercury" << endl;
